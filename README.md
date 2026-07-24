@@ -27,28 +27,16 @@ The dataset consists of three cells, each at:
  - The monitored data includes current, voltage, temperature, and Hoop strain with respect to time -->
 
 ## Data Visualization
-- The plotting folder contains codes in both MATLAB and python that can be used to plot data
-- The following figures were created in MATLAB using the Rate_Compare.m file
+- The following plot is an example of how a 30Q battery discharges at a constant C-Rate
 
 <p align="center">
 <img src="media/S001_Voltage.png"" alt="drawing" width="400"/>
 </p>
 <p align="center">
-The voltage per C-rate with respect to depth of discharge for cell S001
-</p>
-
-<p align="center">
-<img src="media/S003_Temperature.png" alt="drawing" width="400"/>
+The voltage per C-rate with respect to depth of discharge for cell S001 
 </p>
 <p align="center">
-The temperature per C-rate with respect to depth of discharge for cell S003
-</p>
-
-<p align="center">
-<img src="media/S002_Strain.png" alt="drawing" width="400"/>
-</p>
-<p align="center">
- - The strain per C-rate with respect to depth of discharge for cell S002
+Data can be found in single_cell/dataset-1
 </p>
 
 ## Licensing and Citation
