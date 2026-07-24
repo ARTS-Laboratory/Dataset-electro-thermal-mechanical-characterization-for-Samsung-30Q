@@ -1,62 +1,89 @@
-# Battery Data
-Electro-thermal-deformation datasets.
-Each folder contains data from a different 30Q cell.
+# Data
 
+## Test Types
+- **HPPC**:
+    - Hybrid Pulse Power Characterization Test
+      - Current pulses are applied to the battery to test its response
+        - Current is constant 
+        - C-Rate is recorded in the file name 
+- **multi_cycle**:
+  - Constant Current Test
+    - Battery is charged and then discharged over a certain number of cycles
+      - Current is constant 
+      - C-rate is recorded in the file name
+- **single_cycle**:
+  - Constant Current Test
+    - All tests have C-rates in file name
+    - Datasets will have:
+      - Discharge cycle:
+        - Starts at 100% SoC and then discharges to 0% SoC
+      - Charge cycle:
+        - Starts at 0% SoC and then charges to 100% SoC
+      - Wait cycle
+        - Holds the battery in a steady state  
 
+## Datasets
+### HPPC 
+- **Dataset 1**
+    - HPPC tests that collected following data:
+        - Time
+        - Current
+        - Voltage
+        - Power
+        - Battery Temp
+        - Chamber Temp
+    - Tests were run on this test setup:
+        <p align="center">
+        <img src="media/HPPC_ds1_testsetup.png" title="Dataset 1 Test Setup" alt="dataset_1 Test Setup" width="300"/>
+        </p>
+        <p align="center">
+        Will add picture in future
+        </p>
+- **Dataset 2** <!-- this is Connors paper HPPC data that was used to work with his Neural Network stage 2 code -->
+    - Data for the HPPC section of the PCML paper
+    - Data was used to train the second section of the Neural Network code
+    - Data has been:
+        - Processed
+            - State of charge at each point has been added using coulomb counting equation 
+        - Scrubbed
+            - Any nan values have been removed
+    - Tests were run on this test setup:
+        <p align="center">
+        <img src="media/HPPC_ds2_testsetup.png" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
+        </p>
+        <p align="center">
+        Will add picture in future
+        </p>
 
-<table>
-  <caption>Table 1: Data collection for Cells S001, S002, and S003
-  <tr>
-    <th></th>
-    <th colspan="4">Temperature</th>
-  </tr>
-  <tr>
-    <th>Rate</th>
-    <th>RT</th>
-    <th>30°C</th>
-    <th>40°C</th>
-    <th>50°C</th>
-  </tr>
-  <tr>
-    <td>OCV(0.1C)</td>
-    <td style="background-color: #ffcccc;">Complete</td>
-    <td style="background-color: #ccffcc;"></td>
-    <td style="background-color: #ccccff;"></td>
-    <td style="background-color: #ffcc99;"></td>
-  </tr>
-  <tr>
-    <td>HPPC</td>
-    <td style="background-color: #ffcccc;">Not Started</td>
-    <td style="background-color: #ccffcc;"></td>
-    <td style="background-color: #ccccff;"></td>
-    <td style="background-color: #ffcc99;"></td>
-  </tr>
-  <tr>
-    <td>1C</td>
-    <td style="background-color: #ffcccc;">Incomplete</td>
-    <td style="background-color: #ccffcc;">Not Started</td>
-    <td style="background-color: #ccccff;">Not Started</td>
-    <td style="background-color: #ffcc99;">Not Started</td>
-  </tr>
-  <tr>
-    <td>2C</td>
-    <td style="background-color: #ffcccc;">Incomplete</td>
-    <td style="background-color: #ccffcc;"></td>
-    <td style="background-color: #ccccff;"></td>
-    <td style="background-color: #ffcc99;"></td>
-  </tr>
-  <tr>
-    <td>3C</td>
-    <td style="background-color: #ffcccc;">Incomplete</td>
-    <td style="background-color: #ccffcc;"></td>
-    <td style="background-color: #ccccff;"></td>
-    <td style="background-color: #ffcc99;"></td>
-  </tr>
-  <tr>
-    <td>4C</td>
-    <td style="background-color: #ffcccc;">Incomplete</td>
-    <td style="background-color: #ccffcc;"></td>
-    <td style="background-color: #ccccff;"></td>
-    <td style="background-color: #ffcc99;"></td>
-  </tr>
-</table>
+### multi_cycle
+- **Dataset 1**
+    - Charge & discharge data from 3 independent cells.
+    - EIS data for each cell is included in their file
+    - Tests were run on this test setup:
+        <p align="center">
+        <img src="media/multi_cycle_ds1_testsetup.png" title="Dataset 1 Test Setup" alt="dataset_1 Test Setup" width="300"/>
+        </p>
+        <p align="center">
+        Will add picture in future
+        </p>
+- **Dataset 2**
+    - Dataset for battery cycling experiments, including synchronized measurements of current, voltage, temperature, and mechanical strain
+    - Impedance data can be found in the post-test-spectroscopy folder
+    - Tests were run on this test setup:
+        <p align="center">
+        <img src="media/multi_cycle_ds2_testsetup.png" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
+        </p>
+        <p align="center">
+        Will add picture in future
+        </p>
+### single_cycle
+- **Dataset 1**
+    - Electro-thermal-deformation data
+    - Tests were run on this test setup:
+        <p align="center">
+        <img src="media/single_cylce_ds1_testsetup.png" title="Dataset 1 Test Setup" alt="dataset_1 Test Setup" width="300"/>
+        </p>
+        <p align="center">
+        Will add picture in future
+        </p>
+- **Dataset 2**

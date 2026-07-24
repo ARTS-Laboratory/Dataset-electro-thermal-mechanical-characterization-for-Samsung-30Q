@@ -22,10 +22,10 @@ The dataset is organized by cell, and each cell directory contains two subfolder
 
 ```text
 cellX/
-    charge/
-        charge_<fileIndex>_<cycleNum>.lvm
-    discharge/
-        discharge_<fileIndex>_<cycleNum>.lvm
+├── charge/
+    ├── charge_<fileIndex>_<cycleNum>.lvm
+├── discharge/
+    ├── discharge_<fileIndex>_<cycleNum>.lvm
 ```      
 
 Each .lvm file is named using a file index and a cycle number.
