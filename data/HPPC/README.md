@@ -19,6 +19,11 @@
 - **ADD TEST SETUP PIC TO README IN THIS FOLDER**
 - HPPC-for-electrothermal-neural-net
 - This data is for Hybrid Pulse Power Tests performed in April, 2025 on three cells
+- Data has been:
+    - Processed:
+        - State of Charge at every data point has been added using coulomb counting equation
+    - Scrubbed:
+        - Removed any NaN values
 - Columns in the data files are: 
     - Current
     - Voltage
