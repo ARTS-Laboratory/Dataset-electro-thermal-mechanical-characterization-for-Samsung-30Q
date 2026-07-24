@@ -6,6 +6,7 @@ This dataset contains charge and discharge data files from 3 independent cells. 
 
 1. **Time**:  
    The timestamp of each recorded measurement, recorded in seconds.
+   
 2. **Current**:  
    The current measured in amps (A)
 

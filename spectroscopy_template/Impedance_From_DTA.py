@@ -26,7 +26,7 @@ from pathlib import Path
 
 ''' Update '''
 "Path to the folder. The data folder should be a subdirectory of this folder"
-Folder_path = r'C:\School\Navy\Github\dataset-cycling-with-strain-monitoring-for-samsung-30Q-cell\data\Dataset-2\post-test-spectroscopy' #Change this (leave the r outside quotes)
+# Folder_path = 'C:\School\Navy\Github\dataset-cycling-with-strain-monitoring-for-samsung-30Q-cell\data\Dataset-2\post-test-spectroscopy' #Change this (leave the r outside quotes)
 
 """
 Note that if you change the number of cells you need to update the colors.
@@ -41,11 +41,11 @@ save_type = '.png' #Leave period if you want to change the file save type
 
 
 ''' Relative Paths '''
-search_directory = Path(Folder_path)
+# search_directory = Path(Folder_path)
 
 #relative paths 
-save_media_path = f'{search_directory}/media'
-DTA_folder_path = f'{search_directory}/data'
+save_media_path = Path('media')
+DTA_folder_path = Path('data')
 
 #Test Name
 Test_Path_Directory = Path(DTA_folder_path)
@@ -344,13 +344,12 @@ create_nyquist(DTA_files=DTA_files_nyquist,
 
 
 ''' Write to MD '''
-display_graphs_path = fr'{search_directory}\Display_Graphs.md'
+display_graphs_path = Path('Display_Graphs.md')
 
 display_graph_markdown_write(MD_Path=display_graphs_path, Cell_Count=Cell_Count, Test_Name=Test_Name)
 
 
 ''' Testing '''
-# print(search_directory)
-# print(save_media_path)
-# print(DTA_folder_path)
-# print(display_graphs_path)
+print(save_media_path)
+print(DTA_folder_path)
+print(display_graphs_path)
