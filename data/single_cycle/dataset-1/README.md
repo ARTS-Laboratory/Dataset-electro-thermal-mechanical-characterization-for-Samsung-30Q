@@ -2,6 +2,7 @@
 Electro-thermal-deformation datasets.
 Each folder contains data from a different 30Q cell.
 
+Data was used in the first stage of training for PCML 
 
 
 <table>
