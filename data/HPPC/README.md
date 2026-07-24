@@ -8,12 +8,12 @@
 - HPPC test data 20C
 - Data was collected: 5/16/2023
 - Columns in the data text files are: 
-    - Time
-    - Current
-    - Voltage 
-    - Power 
-    - Battery Temp
-    - Chamber Temp
+    - Time (s)
+    - Current (A)
+    - Voltage (V)
+    - Power (W)
+    - Battery Temp (°C)
+    - Chamber Temp (°C)
 
 ### Dataset-2
 - **ADD TEST SETUP PIC TO README IN THIS FOLDER**
@@ -25,10 +25,10 @@
     - Scrubbed:
         - Removed any NaN values
 - Columns in the data files are: 
-    - Current
-    - Voltage
-    - Temperature
-    - State of Charge
+    - Current (A)
+    - Voltage (V)
+    - Temperature (°C)
+    - State of Charge 
 
 ### Dataset-3 
 - Dataset is a work in progress
