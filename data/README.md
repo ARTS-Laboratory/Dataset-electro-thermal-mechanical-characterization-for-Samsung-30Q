@@ -54,11 +54,14 @@
         <p align="center">
         Will add picture in future
         </p>
+- **Dataset 3** 
+  - Tests need to be run
+  - Cells Tested: 30Q_1 -> 30Q_3
+  - Impedance data has been added
 
 ### multi_cycle
 - **Dataset 1**
     - Charge & discharge data from 3 independent cells.
-    - EIS data for each cell is included in their file
     - Tests were run on this test setup:
         <p align="center">
         <img src="media/multi_cycle_ds1_testsetup.png" title="Dataset 1 Test Setup" alt="dataset_1 Test Setup" width="300"/>
@@ -76,6 +79,18 @@
         <p align="center">
         Will add picture in future
         </p>
+- **Dataset 3**
+  - Tests need to be run
+  - Cells Tested: 30Q_1_2C -> 30Q_3_2C
+  - Impedance data has been added
+- **Dataset 4**
+  - Tests need to be run
+  - Cells Tested: 30Q_4 -> 30Q_6
+  - Impedance data has been added
+- **Dataset 5**
+  - Tests need to be run
+  - Cells Tested: 30Q_7 -> 30Q_9
+  - Impedance data has been added
 ### single_cycle
 - **Dataset 1**
     - Electro-thermal-deformation data
@@ -86,4 +101,3 @@
         <p align="center">
         Will add picture in future
         </p>
-- **Dataset 2**
