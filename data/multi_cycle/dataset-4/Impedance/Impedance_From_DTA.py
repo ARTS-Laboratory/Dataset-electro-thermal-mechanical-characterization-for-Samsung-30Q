@@ -7,11 +7,10 @@ Creates the Bode and Nyquist Plots Automatically
 Only needed file. 
 
 Note: 
-    - Update the cell count to ensure the code won't fail
+    - If cell count ≠ 3 markdown won't update 
     - DTA files must be put into data folder (same capitalization)
-    - DTA files must be named like: <TestName>_Cell_1
-        - Update the cell number. It must be at the end like shown
-    - Have a media folder (same capitalization)
+    - DTA files names must be put into File_Names
+    - Have a media & data folders (same capitalization)
         
 @author: Charlie Buren
 """
@@ -24,16 +23,25 @@ from pathlib import Path
 from dataclasses import dataclass 
 from pathlib import Path
 
-''' Update '''
-"Path to the folder. The data folder should be a subdirectory of this folder"
-# Folder_path = 'C:\School\Navy\Github\dataset-cycling-with-strain-monitoring-for-samsung-30Q-cell\data\Dataset-2\post-test-spectroscopy' #Change this (leave the r outside quotes)
+''' User Settings '''
+File_Names = [
+    '30Q_4',
+    '30Q_5',
+    '30Q_6'
+]
+
+colors = [              # [cell 1, cell 2, cell 3]
+    'blue',             # Add more colors if there are more than 3 cells
+    'red',
+    'green',
+    ]
 
 """
 Note that if you change the number of cells you need to update the colors.
 Also if you change cell count the Display_Graphs.md will not update.
 """
-Cell_Count = 3
-colors = ['blue', 'red', 'green'] #[cell 1, cell 2, cell 3]
+Cell_Count = len(File_Names)
+
 
 
 ''' Optional Settings '''
@@ -44,15 +52,11 @@ save_type = '.png' #Leave period if you want to change the file save type
 # search_directory = Path(Folder_path)
 
 #relative paths 
-save_media_path = Path('media') 
+save_media_path = Path('media')
 DTA_folder_path = Path('data')
 
 #Test Name
-Test_Path_Directory = Path(DTA_folder_path)
-Test_Path_Cell1 = next(Test_Path_Directory.glob('*Cell_1.DTA'), None)
-
-Test_Name_Extra_ = Test_Path_Cell1.stem.replace(('Cell_1'), '')
-Test_Name = Test_Name_Extra_[:-1]
+Test_Name = File_Names[0].rsplit('_', 1)[0]
 
 
 ''' Labels '''
@@ -71,13 +75,13 @@ class CellBuilder:
     test_label: str
     contin: bool
     
-    def create_DTA_dict(DTA_folder_path, Test_Name, Cell_Count): 
+    def create_DTA_dict(DTA_folder_path, File_Names): 
         """ this creates and returns the dictionary of cell DTA paths """ 
         DTA_dict = {}
 
-        for i in range(1, Cell_Count+1):
+        for i, name in enumerate(File_Names, start=1):
             Cell_Num = f'Cell_{i}'
-            DTA_dict[Cell_Num] = f'{DTA_folder_path}\\{Test_Name}_{Cell_Num}.DTA'
+            DTA_dict[Cell_Num] = f'{DTA_folder_path}\\{name}.DTA'
         return DTA_dict
 
 @dataclass
@@ -320,12 +324,10 @@ def display_graph_markdown_write(MD_Path,Cell_Count, Test_Name):
 
 ''' Variable Setup '''
 DTA_files_bode = CellBuilder.create_DTA_dict(DTA_folder_path=DTA_folder_path,
-                                             Test_Name=Test_Name, 
-                                             Cell_Count=Cell_Count)
+                                             File_Names=File_Names)
 
 DTA_files_nyquist = CellBuilder.create_DTA_dict(DTA_folder_path=DTA_folder_path,
-                                                Test_Name=Test_Name,
-                                                Cell_Count=Cell_Count)
+                                                File_Names=File_Names)
 
 ''' Graphing '''
 create_bode(DTA_files=DTA_files_bode,

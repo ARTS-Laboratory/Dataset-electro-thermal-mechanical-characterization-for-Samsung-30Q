@@ -25,9 +25,9 @@ from pathlib import Path
 
 ''' User Settings '''
 File_Names = [
-    '30Q_1',
-    '30Q_2',
-    '30Q_3'
+    '30Q_1_2C',
+    '30Q_2_2C',
+    '30Q_3_2C'
 ]
 
 colors = [              # [cell 1, cell 2, cell 3]
@@ -75,13 +75,13 @@ class CellBuilder:
     test_label: str
     contin: bool
     
-    def create_DTA_dict(DTA_folder_path, Test_Name, Cell_Count): 
+    def create_DTA_dict(DTA_folder_path, File_Names): 
         """ this creates and returns the dictionary of cell DTA paths """ 
         DTA_dict = {}
 
-        for i in range(1, Cell_Count+1):
+        for i, name in enumerate(File_Names, start=1):
             Cell_Num = f'Cell_{i}'
-            DTA_dict[Cell_Num] = f'{DTA_folder_path}\\{Test_Name}_{Cell_Num}.DTA'
+            DTA_dict[Cell_Num] = f'{DTA_folder_path}\\{name}.DTA'
         return DTA_dict
 
 @dataclass
@@ -324,12 +324,10 @@ def display_graph_markdown_write(MD_Path,Cell_Count, Test_Name):
 
 ''' Variable Setup '''
 DTA_files_bode = CellBuilder.create_DTA_dict(DTA_folder_path=DTA_folder_path,
-                                             Test_Name=Test_Name, 
-                                             Cell_Count=Cell_Count)
+                                             File_Names=File_Names)
 
 DTA_files_nyquist = CellBuilder.create_DTA_dict(DTA_folder_path=DTA_folder_path,
-                                                Test_Name=Test_Name,
-                                                Cell_Count=Cell_Count)
+                                                File_Names=File_Names)
 
 ''' Graphing '''
 create_bode(DTA_files=DTA_files_bode,
