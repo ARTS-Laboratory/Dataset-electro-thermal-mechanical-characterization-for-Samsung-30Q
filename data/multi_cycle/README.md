@@ -1,19 +1,27 @@
 # multi_cycle data
+### Add test setup pics
 
 ## Datasets
 ### dataset-1
 - Measurements recorded every 1 second 
+- 1C & 30 minute rest period test
 - Has charging and discharging data
-- Data categories collected was:
-    - Current
-    - Voltage
-    - Power
-    - Cell Temperature
-    - Hoop Strain
-    - Ambient Temperature
+- Data categories collected were:
+    - Current (A)
+    - Voltage (V)
+    - Power (W)
+    - Cell Temperature (°C)
+    - Hoop Strain (ε)
+    - Ambient Temperature (°C)
 
 ### dataset-2
-- **Update**
+- 1C no rest period test
+- Data was used for SoH modeling
+- Data categories collected were: 
+    - Current (A)
+    - Volts (V)
+    - Cell Temperature (°C)
+    - Hoop Strain (ε)
 
 ### dataset-3
 - This dataset is currently in progress
@@ -26,17 +34,17 @@
 - This dataset is currently in progress
 - 30Q Batteries tested:
     - 30Q_4 -> 30Q_6
-    - Impdedance data has been added
+    - Impedance data has been added
 
 ### dataset-5
 - This dataset is currently in progress
 - 30Q Batteries tested:
     - 30Q_7 -> 30Q_9
-    - Impdedance data has been added
+    - Impedance data has been added
 
 ## State of Health (SOH) Plots
 ### Dataset 1
-![Dataset1 Capacity Plot](./images/dataset1-capacity.png)
+![Dataset1 Capacity Plot](./media/dataset1-capacity.png)
 
 ### Dataset 2
-![Dataset2 Capacity Plot](./images/dataset2-capacity.png)
+![Dataset2 Capacity Plot](./media/dataset2-capacity.png)

@@ -86,6 +86,8 @@ cell2_cycle_342_Current_Temperature_Strain.png
      │ Save figure (optional)       │
      └──────────────────────────────┘
 ```
+### Test Setup
+**ADD PICS** 
 
 ### Example Figure
 ![Cycle 342 Plot](./images/cycle_342_Current_Temperature_Strain.png)

@@ -13,7 +13,6 @@
       - C-rate is recorded in the file name
 - **single_cycle**:
   - Constant Current Test
-    - All tests have C-rates in file name
     - Datasets will have:
       - Discharge cycle:
         - Starts at 100% SoC and then discharges to 0% SoC

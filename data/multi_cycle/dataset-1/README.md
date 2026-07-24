@@ -25,6 +25,9 @@ This dataset contains charge and discharge data files from 3 independent cells. 
 7. **Ambient Temperature**:  
    The test chamber temperature, measured in degrees Celsius (°C)
 
+## Test Setup
+**ADD PICS**
+
 ## Folder Structure
 
 Each cell folder contains seperate folders for charge and discharge data for each cycle.
