@@ -1,4 +1,4 @@
-# multi_cycle data
+# Multi-cycle data
 ### Add test setup pics
 
 ## Datasets
