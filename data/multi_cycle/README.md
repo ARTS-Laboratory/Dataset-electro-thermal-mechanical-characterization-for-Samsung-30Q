@@ -24,39 +24,52 @@
     - Hoop Strain (ε)
 
 ### dataset-3
-- This dataset is currently in progress
+- Data still needs to be collected
 - This will be a multi-cycle test with a C-Rate of 2
 - 30Q Batteries tested:
     - 30Q_1_2C -> 30Q_3_2C
     - Impedance data has been added
-- Tests were run on this test setup:
-    <p align="center">
-    <img src="media/multi_cycle_ds3_testsetup1.jpg" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
-    </p>
-    <p align="center">
-    multi_cycle dataset 3 test setup.
-    </p>
-    <p align="center">
-    <img src="media/multi_cycle_ds3_testsetup2.jpg" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
-    </p>
-    <p align="center">
-    multi_cycle dataset 3 test board.
-    </p>
+        <p align="center">
+        <img src="media/dataset3_batteries.jpg" title="Dataset 3 Batteries" alt="dataset-3 batteries" width="400"/>
+        </p>
+        <p align="center">
+        multi_cycle dataset 3 batteries.
+        </p>
 ### dataset-4
-- This dataset is currently in progress
+- Data still needs to be collected
 - 30Q Batteries tested:
     - 30Q_4 -> 30Q_6
     - Impedance data has been added
-
+        <p align="center">
+        <img src="media/dataset4_batteries.jpg" title="Dataset 4 Batteries" alt="dataset-4 batteries" width="400"/>
+        </p>
+        <p align="center">
+        multi_cycle dataset 4 batteries.
+        </p>
 ### dataset-5
-- This dataset is currently in progress
+- Data still needs to be collected
 - 30Q Batteries tested:
     - 30Q_7 -> 30Q_9
     - Impedance data has been added
-
+        <p align="center">
+        <img src="media/dataset5_batteries.jpg" title="Dataset 5 Batteries" alt="dataset-5 batteries" width="400"/>
+        </p>
+        <p align="center">
+        multi_cycle dataset 5 batteries.
+        </p>
 ## State of Health (SOH) Plots
 ### Dataset 1
-![Dataset1 Capacity Plot](./media/dataset1-capacity.png)
+<p align="center">
+<img src="media/dataset1-capacity.png" title="Dataset 1 Capacity Plot" alt="Dataset 1 Capacity Plot" width="400"/>
+</p>
+<p align="center">
+Dataset 1 Capacity Plot
+</p>
 
 ### Dataset 2
-![Dataset2 Capacity Plot](./media/dataset2-capacity.png)
+<p align="center">
+<img src="media/dataset2-capacity.png" title="Dataset 2 Capacity Plot" alt="Dataset 2 Capacity Plot" width="400"/>
+</p>
+<p align="center">
+Dataset 2 Capacity Plot
+</p>

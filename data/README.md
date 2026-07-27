@@ -84,18 +84,18 @@
   - Impedance data has been added
   - Cells Tested: 30Q_1_2C -> 30Q_3_2C
   - Tests were run on this test setup:
-    <p align="center">
-    <img src="media/multi_cycle_ds3_testsetup1.jpg" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
+    <!-- <p align="center">
+    <img src="media/multi_cycle_ds3_testsetup1.jpg" title="Dataset 3 Test Setup" alt="dataset-3 Test Setup" width="300"/>
     </p>
     <p align="center">
     multi_cycle dataset 3 test setup.
     </p>
     <p align="center">
-    <img src="media/multi_cycle_ds3_testsetup2.jpg" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
+    <img src="media/multi_cycle_ds3_testsetup2.jpg" title="Dataset 2 Test Setup" alt="dataset-3 Test Setup" width="300"/>
     </p>
     <p align="center">
     multi_cycle dataset 3 test board.
-    </p>
+    </p> -->
 
 - **Dataset 4**
   - Tests need to be run
