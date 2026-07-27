@@ -29,7 +29,19 @@
 - 30Q Batteries tested:
     - 30Q_1_2C -> 30Q_3_2C
     - Impedance data has been added
-
+- Tests were run on this test setup:
+    <p align="center">
+    <img src="media/multi_cycle_ds3_testsetup1.jpg" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
+    </p>
+    <p align="center">
+    multi_cycle dataset 3 test setup.
+    </p>
+    <p align="center">
+    <img src="media/multi_cycle_ds3_testsetup2.jpg" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
+    </p>
+    <p align="center">
+    multi_cycle dataset 3 test board.
+    </p>
 ### dataset-4
 - This dataset is currently in progress
 - 30Q Batteries tested:
