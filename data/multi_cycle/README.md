@@ -24,17 +24,10 @@
     - Hoop Strain (ε)
 
 ### dataset-3
-- Data still needs to be collected
-- This will be a multi-cycle test with a C-Rate of 2
+- Data is being collected as of 7/27/2026
 - 30Q Batteries tested:
-    - 30Q_1_2C -> 30Q_3_2C
-    - Impedance data has been added
-        <p align="center">
-        <img src="media/dataset3_batteries.jpg" title="Dataset 3 Batteries" alt="dataset-3 batteries" width="400"/>
-        </p>
-        <p align="center">
-        multi_cycle dataset 3 batteries.
-        </p>
+    - 30Q_1_.5C -> 30Q_3_.5C
+    - No Impedance data
 ### dataset-4
 - Data still needs to be collected
 - 30Q Batteries tested:
@@ -56,6 +49,18 @@
         </p>
         <p align="center">
         multi_cycle dataset 5 batteries.
+        </p>
+### dataset-6
+- Data still needs to be collected
+- This will be a multi-cycle test with a C-Rate of 2
+- 30Q Batteries tested:
+    - 30Q_1_2C -> 30Q_3_2C
+    - Impedance data has been added
+        <p align="center">
+        <img src="media/dataset6_batteries.jpg" title="Dataset 6 Batteries" alt="dataset-6 batteries" width="400"/>
+        </p>
+        <p align="center">
+        multi_cycle dataset 6 batteries.
         </p>
 ## State of Health (SOH) Plots
 ### Dataset 1

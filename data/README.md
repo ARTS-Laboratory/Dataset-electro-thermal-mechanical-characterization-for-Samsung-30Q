@@ -31,13 +31,7 @@
         - Power
         - Battery Temp
         - Chamber Temp
-    - Tests were run on this test setup:
-        <p align="center">
-        <img src="media/HPPC_ds1_testsetup.png" title="Dataset 1 Test Setup" alt="dataset_1 Test Setup" width="300"/>
-        </p>
-        <p align="center">
-        Will add picture in future
-        </p>
+
 - **Dataset 2** <!-- this is Connors paper HPPC data that was used to work with his Neural Network stage 2 code -->
     - Data for the HPPC section of the PCML paper
     - Data was used to train the second section of the Neural Network code
@@ -46,13 +40,7 @@
             - State of charge at each point has been added using coulomb counting equation 
         - Scrubbed
             - Any nan values have been removed
-    - Tests were run on this test setup:
-        <p align="center">
-        <img src="media/HPPC_ds2_testsetup.png" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
-        </p>
-        <p align="center">
-        Will add picture in future
-        </p>
+
 - **Dataset 3** 
   - Tests need to be run
   - Cells Tested: 30Q_1 -> 30Q_3
@@ -62,29 +50,16 @@
 ### multi_cycle
 - **Dataset 1**
     - Charge & discharge data from 3 independent cells.
-    - Tests were run on this test setup:
-        <p align="center">
-        <img src="media/multi_cycle_ds1_testsetup.png" title="Dataset 1 Test Setup" alt="dataset_1 Test Setup" width="300"/>
-        </p>
-        <p align="center">
-        Will add picture in future
-        </p>
+
 - **Dataset 2**
     - Dataset for battery cycling experiments, including synchronized measurements of current, voltage, temperature, and mechanical strain
     - Impedance data can be found in the post-test-spectroscopy folder
-    - Tests were run on this test setup:
-        <p align="center">
-        <img src="media/multi_cycle_ds2_testsetup.png" title="Dataset 2 Test Setup" alt="dataset_2 Test Setup" width="300"/>
-        </p>
-        <p align="center">
-        Will add picture in future
-        </p>
+
 - **Dataset 3**
-  - Tests need to be run
-  - Impedance data has been added
-  - Cells Tested: 30Q_1_2C -> 30Q_3_2C
+  - Tests are being run
+  - Cells Tested: 30Q_1_.5C -> 30Q_3_.5C
   - Tests were run on this test setup:
-    <!-- <p align="center">
+    <p align="center">
     <img src="media/multi_cycle_ds3_testsetup1.jpg" title="Dataset 3 Test Setup" alt="dataset-3 Test Setup" width="300"/>
     </p>
     <p align="center">
@@ -95,23 +70,24 @@
     </p>
     <p align="center">
     multi_cycle dataset 3 test board.
-    </p> -->
+    </p>
 
 - **Dataset 4**
   - Tests need to be run
   - Cells Tested: 30Q_4 -> 30Q_6
   - Impedance data has been added
+
 - **Dataset 5**
   - Tests need to be run
   - Cells Tested: 30Q_7 -> 30Q_9
   - Impedance data has been added
+
+- **Dataset 6**
+  - Tests need to be run
+  - Cells Tested: 30Q_1_2C -> 30Q_3_2C
+  - Impedance data has been added
+
 ### single_cycle
 - **Dataset 1**
     - Electro-thermal-deformation data
-    - Tests were run on this test setup:
-        <p align="center">
-        <img src="media/single_cylce_ds1_testsetup.png" title="Dataset 1 Test Setup" alt="dataset_1 Test Setup" width="300"/>
-        </p>
-        <p align="center">
-        Will add picture in future
-        </p>
+    - Data was used for the first stage of training for PCML. 
