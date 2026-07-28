@@ -57,8 +57,8 @@
 
 - **Dataset 3**
   - Tests are being run
-  - Cells Tested: 30Q_1_.5C -> 30Q_3_.5C
-  - Tests were run on this test setup:
+  - Cells Tested: 30Q_4 -> 30Q_6
+  - Impedance data has been added
     <p align="center">
     <img src="media/multi_cycle_ds3_testsetup1.jpg" title="Dataset 3 Test Setup" alt="dataset-3 Test Setup" width="300"/>
     </p>
@@ -74,15 +74,10 @@
 
 - **Dataset 4**
   - Tests need to be run
-  - Cells Tested: 30Q_4 -> 30Q_6
-  - Impedance data has been added
-
-- **Dataset 5**
-  - Tests need to be run
   - Cells Tested: 30Q_7 -> 30Q_9
   - Impedance data has been added
 
-- **Dataset 6**
+- **Dataset 5**
   - Tests need to be run
   - Cells Tested: 30Q_1_2C -> 30Q_3_2C
   - Impedance data has been added

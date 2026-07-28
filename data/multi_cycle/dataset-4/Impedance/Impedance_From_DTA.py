@@ -25,9 +25,9 @@ from pathlib import Path
 
 ''' User Settings '''
 File_Names = [
-    '30Q_4',
-    '30Q_5',
-    '30Q_6'
+    '30Q_7',
+    '30Q_8',
+    '30Q_9'
 ]
 
 colors = [              # [cell 1, cell 2, cell 3]

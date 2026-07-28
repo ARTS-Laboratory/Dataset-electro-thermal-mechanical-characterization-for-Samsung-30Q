@@ -16,12 +16,12 @@
     </p> -->
 
 ## Cells Tested
-- 30Q_4
-- 30Q_5
-- 30Q_6
+- 30Q_7
+- 30Q_8
+- 30Q_9
 <p align="center">
 <img src="media/dataset4_batteries.jpg" title="Dataset 4 Batteries" alt="dataset-4 batteries" width="400"/>
 </p>
 <p align="center">
-multi_cycle dataset 4 batteries.
+multi_cycle dataset 5 batteries.
 </p>
